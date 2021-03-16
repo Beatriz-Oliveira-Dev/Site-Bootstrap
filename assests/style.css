@@ -1,0 +1,12 @@
+#rodape{
+    display: flex;
+    justify-content: center;
+}
+
+#rodape a{
+    padding: 10px;
+}
+
+#rodape a:hover{
+    opacity: 0.7;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAcademy</title>
+    <link rel="stylesheet" href="assests/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+
+    <!-- Barra de navegação-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="index.html">
+            <img src="assests/img/Code Academy.png" width="50" height="50" alt="logo da escola"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto" style="font-size: 18px;">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cursos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="java.html">Java</a>
+                        <a class="dropdown-item" href="python.html">Python</a>
+                        <a class="dropdown-item" href="javascript.html">JavaScript</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-outline-light">Cadastrar</button>
+            <button type="button" class="btn btn-outline-light">Login</button>
+        </div>
+    </nav>
+    <!--/barra de navegação-->
+
+    <!--Carrousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assests/img/curso de html5.png" class="w-100" alt="slide que curso de html5">
+            </div>
+            <div class="carousel-item">
+                <img src="assests/img/curso de mysql.png" class="w-100" height="590px" alt="slide de curso de MySQL">
+            </div>
+            <div class="carousel-item">
+                <img src="assests/img/curso de wordpress.png" class="w-100" height="590px" alt="slide de curso de wordpress">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!--/Carrousel-->
+
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid text-dark bg-warning">
+        <div class="container">
+            <h1 class="display-4">Certificações na Code</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sapiente harum ex totam, eum
+                vitae commodi quos</p>
+        </div>
+    </div>
+    <!--/jumbotron-->
+
+
+    <!--Cards dos cursos-->
+    <div class="container">
+        <div class="card-deck">
+            <div class="card">
+                <a href="java.html"><img class="card-img-top" src="assests/img/java.png"
+                        alt="Imagem de capa do card"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Curso de Java</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ut, fugit
+                        reprehenderit placeat aut consequatur dolorum natus dignissimos assumenda nemo perspiciatis
+                        maxime nesciunt eaque doloribus tenetur consectetur repudiandae nam laboriosam!</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <a href="phyton.html"><img class="card-img-top" src="assests/img/Phyton.png"
+                        alt="Imagem de capa do card"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Curso de Python</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro recusandae quod
+                        a illo facere, laudantium alias quas illum ea commodi? Ea incidunt suscipit officia, omnis
+                        molestiae consequuntur et odio temporibus.</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <a href="javascript.html"><img class="card-img-top" src="assests/img/JavaScript.png"
+                        alt="Imagem de capa do card"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Curso de JavaScript</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum placeat
+                        veritatis voluptatum labore beatae quia illum perspiciatis! Maxime at reiciendis alias officiis
+                        aliquid totam voluptates vitae saepe laudantium error!</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/cards-->
+
+    <hr>
+    <div>
+        <footer id="rodape" class="container">
+            <a class="p-30 " href="https://github.com/Beatriz-Oliveira-Dev" target="_blank">
+                <img src="assests/img/github.png" alt="Logo do github" width="100px" height="100px">
+            </a>
+            <a class="p-30" href="https://www.instagram.com/beatrizlso/?hl=pt-br" target="_blank">
+                <img src="assests/img/instagram.png" alt="Logo do github" width="100px" height="100px">
+            </a>
+            <a class="p-30" href="https://www.linkedin.com/in/beatriz-l-88ab81117/" target="_blank">
+                <img src="assests/img/linkedin.png" alt="Logo do github" width="100px" height="100px">
+            </a>
+        </footer>
+        <p style="text-align: center;">Todos os direitos: Beatriz Oliveira &copy;</p>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
